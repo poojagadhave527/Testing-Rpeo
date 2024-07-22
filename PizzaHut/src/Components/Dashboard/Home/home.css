@@ -1,0 +1,134 @@
+.homeHorrizontalNav {
+    height: 50px;
+    width: 93vw;
+    position:  sticky;
+    top: 0;
+    background-color: #e7dede;
+    padding: 10px;
+    margin: auto;
+}
+ 
+
+.btn-small-custom {
+    color: white;
+    font-size: 0.75rem;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left: 7px;
+     width: 100%;
+    background-color: rgb(40, 192, 40);
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+.AddNewBillBtn{
+    font-size: 0.75rem;
+    height: 30px;
+    width: 100px;
+    color: white;
+    margin-left: 10px;
+    background-color: rgb(40, 192, 40);
+    outline: none;
+    border: none;
+    border-radius: 7px;
+
+}
+.productImageOnHomePage{
+    border-radius: 8px;
+}
+
+.customProductDivOnHome {
+    background-color: white;
+    padding: 5px;
+    border-style: inset;
+     
+    height: auto;
+    border: 1px solid rgb(221, 218, 218);
+    border-radius: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+ 
+
+.billTable {
+    background-color: rgb(202, 199, 199);
+
+
+}
+
+td,
+tr {
+    border: 1px solid black;
+}
+
+.tableDataClass {
+    border: 1px solid black;
+
+}
+
+.HomeScreenMainDiv {
+    padding-top: 15px;
+    position: fixed;
+}
+.searchBarOnHomePage{
+    display: inline;
+    margin-left: 25px;
+}
+.searchBarOnHomePage input {
+     padding: 4px;
+     width: 50%;
+     border: none;
+     outline: none;
+     border-radius: 10px;
+     margin-bottom: 15px;
+     display: inline;
+}
+.filterButtonsInHome{
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 84vh;
+    ::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.productsInHome{
+    flex: 1;
+    overflow-y: auto;
+    height: 84vh;
+    ::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+
+}
+.billingTabsInClass{
+     
+    ::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    flex: 1;
+    overflow-y: auto;
+    height: 60vh;
+    
+}
+.paymentAndPrintBtnInHome{
+    border: 1px solid red;
+}
+.billViewSection{
+    height: 90%;
+    border: 1px solid red;
+}
+
+ 

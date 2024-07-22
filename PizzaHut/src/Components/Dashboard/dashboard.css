@@ -1,0 +1,8 @@
+ 
+.screen{
+    display: flex;
+}
+.dashboardScreen{
+    height: 100vh;
+    overflow-y: auto;
+}
